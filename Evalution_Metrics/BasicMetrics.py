@@ -72,4 +72,4 @@ yt = [ 1, 0, 0, 1 , 1]
 yp = [ 1, 1, 0, 0,  1]
 
 
-print(true_positive(yt, yp))
+# print(true_positive(yt, yp))

@@ -5,11 +5,9 @@ from BasicMetrics import true_positive, false_positive
 def precision(y_true, y_pred) -> float: 
 
     TP = true_positive(y_true, y_pred)
-    print(TP)
     FP = false_positive(y_true, y_pred)
 
-    precision = TP / (TP+FP)
-    print(precision)
+    precision = TP / (TP+FP)  #formulla
 
     return precision
 
